@@ -1,18 +1,34 @@
-* {}
-
-:root {
-    --color: darkBlue;
+* {
+    background-color: darkslategray;
 }
 
-main {}
+:root {
+    --color: rgb(73, 73, 219) ;
+}
+
+main {
+    
+}
 
 body {}
 
-header{}
+header{
+    text-align: center;
+    color: var(--color);
+    
+}
 
-header p{}
+header p {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    color: white;
+}
 
-footer {}
+footer {
+    text-align: center;
+    color: var(--color);
+}
 
 .box {}
 
