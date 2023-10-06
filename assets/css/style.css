@@ -4,7 +4,12 @@
     --color: darkBlue;
 }
 
-main {}
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--color);
+}
 
 body {}
 
@@ -14,9 +19,23 @@ header p{}
 
 footer {}
 
-.box {}
+.box {
+    display: flex;
+    border-style: dashed;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    border-width: thin;
+    margin-bottom: 20px;
+    
+}
 
-.box h2 {}
+.box h2 {
+    display: flex;
+    border: solid 2px black;
+    justify-content: center;
+
+}
 
 .box p {}
 
