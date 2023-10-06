@@ -1,23 +1,32 @@
-* {}
+* {
+    background-color: darkslategray;
+}
 
 :root {
-    --color: darkBlue;
+    --color: rgb(73, 73, 219) ;
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    color: var(--color);
-}
+main {}
 
 body {}
 
-header{}
+header{
+    text-align: center;
+    color: var(--color);
+    
+}
 
-header p{}
+header p {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    color: white;
+}
 
-footer {}
+footer {
+    text-align: center;
+    color: var(--color);
+}
 
 .box {
     display: flex;
